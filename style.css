@@ -173,7 +173,7 @@ section {
   min-height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("./img/photo_2026-09-12_03-28-09.jpg") center/cover no-repeat;
+    url("./photo_2026-09-12_03-28-09.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   padding-top: 80px;
@@ -192,6 +192,16 @@ section {
   line-height: 1.15;
 }
 
+.hero h2 {
+  color: rgb(253, 7, 7);
+  font-size: clamp(2rem, 6vw, 4rem);
+  margin-bottom: 10px;
+  line-height: 1.15;}
+  .hero h3 {
+  color: rgb(7, 118, 253);
+  font-size: clamp(2rem, 6vw, 4rem);
+  margin-bottom: 30px;
+  line-height: 1.15;}
 .hero h1 span {
   display: inline-block;
 }
@@ -904,6 +914,9 @@ section {
   }
 
   .hero h1 {
+    font-size: 1.75rem;
+  }
+   .hero h2 {
     font-size: 1.75rem;
   }
 
